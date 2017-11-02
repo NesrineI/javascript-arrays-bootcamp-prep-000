@@ -20,7 +20,7 @@ function removeElementFromBeginningOfArray(array){
   return array.slice(1)
 }
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return array.slice(1)
+  return array.shift()
 }
 function destructivelyAddElementToEndOfArray(array, element){
   return array.pop()
