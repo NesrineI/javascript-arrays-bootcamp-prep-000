@@ -25,3 +25,4 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 function destructivelyAddElementToEndOfArray(array, element){
   return array.pop()
 }
+
