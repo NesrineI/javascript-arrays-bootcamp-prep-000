@@ -22,7 +22,7 @@ function removeElementFromBeginningOfArray(array){
   return array.slice(1)
 }
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return array.shift()
+  array.shift()
   return array
 }
 function removeElementFromEndOfArray(array){
